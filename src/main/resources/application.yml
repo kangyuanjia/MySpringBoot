@@ -2,6 +2,13 @@ myProps:
   title: 康元佳
   description: 好好学习天天向上
 spring:
+  application:
+    name: spirng-boot-rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
